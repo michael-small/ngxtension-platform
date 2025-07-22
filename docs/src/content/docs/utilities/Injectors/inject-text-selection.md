@@ -7,6 +7,10 @@ contributors: ['fiorelozere']
 
 `injectTextSelection` is a helper function to **reactively track user text selection**. It listens for the browser's `selectionchange` event and updates reactive signals for the current selection, selected text, the selection ranges, and their bounding client rectangles.
 
+```ts
+import { injectTextSelection } from 'ngxtension/inject-text-selection';
+```
+
 ## Features
 
 - **Reactive selection tracking:** Automatically updates when the user changes their text selection.

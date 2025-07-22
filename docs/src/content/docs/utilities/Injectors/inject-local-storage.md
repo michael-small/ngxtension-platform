@@ -8,6 +8,10 @@ contributors: ['enea-jahollari']
 
 This injector provides a reactive local storage management system using Angular's dependency injection and reactivity model. This API allows for easy integration and manipulation of local storage with real-time synchronization across browser tabs and dynamic key support.
 
+```ts
+import { injectLocalStorage } from 'ngxtension/inject-local-storage';
+```
+
 ## API
 
 ### Injection Token: `NGXTENSION_LOCAL_STORAGE`

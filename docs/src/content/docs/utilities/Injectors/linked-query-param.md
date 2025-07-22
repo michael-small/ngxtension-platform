@@ -10,6 +10,10 @@ contributors: ['enea-jahollari']
 
 The `linkedQueryParam` utility function creates a signal that is linked to a query parameter in the URL. This allows you to easily keep your Angular application's state in sync with the URL, making it easier to share and bookmark specific views.
 
+```ts
+import { linkedQueryParam } from 'ngxtension/linked-query-param';
+```
+
 Key Features:
 
 - **Two-way binding**: Changes to the signal are reflected in the URL, and changes to the URL are reflected in the signal.

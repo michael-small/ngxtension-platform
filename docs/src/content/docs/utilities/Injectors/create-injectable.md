@@ -13,6 +13,10 @@ The general difference is that rather than using a class, we use a `function` to
 create the injectable. Whatever the function returns is what will be the
 consumable public API of the service, everything else will be private.
 
+```ts
+import { createInjectable } from 'ngxtension/create-injectable';
+```
+
 ### `providedIn`
 
 By default, `createInjectable` returns a root service with `providedIn: 'root'`. You can override this by passing in a second argument to `createInjectable`:
